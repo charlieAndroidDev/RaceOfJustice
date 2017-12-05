@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/Downtown.unity
+- path: Assets/_Scenes/Loop.unity
   isLoaded: 1
   isActive: 1
