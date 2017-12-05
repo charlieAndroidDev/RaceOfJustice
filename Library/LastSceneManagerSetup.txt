@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/CostalRoad.unity
+- path: Assets/_Scenes/Freeway.unity
   isLoaded: 1
   isActive: 1
