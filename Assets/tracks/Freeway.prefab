@@ -11587,6 +11587,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4157301222296466}
+  - component: {fileID: 64923142940470124}
   m_Layer: 0
   m_Name: Freeway
   m_TagString: Untagged
@@ -56433,6 +56434,20 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300022, guid: bca5c93adbc71744ca9ea932c796e900, type: 3}
+--- !u!64 &64923142940470124
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824156609846890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 1
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 0}
 --- !u!64 &64924353834835764
 MeshCollider:
   m_ObjectHideFlags: 1
