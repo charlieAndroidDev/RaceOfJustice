@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 855
     height: 635
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 33
+  controlID: 51
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,8 +178,8 @@ MonoBehaviour:
     y: 0
     width: 234
     height: 364
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -323,14 +323,14 @@ MonoBehaviour:
     width: 853
     height: 614
   m_SceneLighting: 0
-  lastFramingTime: 3188.3095590437597
+  lastFramingTime: 2461.0289898006886
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.8927106, y: 2.335413, z: -91.18178}
+    m_Target: {x: -4.8661537, y: 4.2876625, z: -210.48627}
     speed: 2
-    m_Value: {x: -1.8927106, y: 2.335413, z: -91.18178}
+    m_Value: {x: -4.8661537, y: 4.2876625, z: -210.48627}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -353,13 +353,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.17229119, y: -0.6900194, z: 0.1745829, w: 0.6809624}
+    m_Target: {x: -0.33427697, y: 0.35196954, z: -0.13623711, w: -0.86360633}
     speed: 2
-    m_Value: {x: 0.17229119, y: -0.6900194, z: 0.1745829, w: 0.6809624}
+    m_Value: {x: -0.33427697, y: 0.35196954, z: -0.13623711, w: -0.86360633}
   m_Size:
-    m_Target: 332.29562
+    m_Target: 373.21057
     speed: 2
-    m_Value: 332.29562
+    m_Value: 373.21057
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -399,20 +399,20 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 108bf7ff
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 50d2f7ffd60bf8ffb010f8ffc451f9ff94f3fbff9a27fdff8666feff4612ffffc6f5ffff8efbffff00000000
+    m_ExpandedIDs: b846faff8efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Road_Streight (1)
-      m_OriginalName: Road_Streight (1)
+      m_Name: LampPost_E (2)
+      m_OriginalName: LampPost_E (2)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -355594
+      m_UserData: -233342
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -461,8 +461,7 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/tracks
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -474,7 +473,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b6280000cc290000f0290000f2290000f4290000d82a00003a2b0000402b00000e2e0000162e0000fe2e00001c2f0000d02f0000603000008a3000009a300000b2300000ba3000002432000036320000f43200003e3400007834000016370000
+    m_ExpandedIDs: b6280000cc290000f0290000f2290000f4290000d82a00003a2b0000102e0000182e00001c2e0000002f00001e2f0000623000008c300000b4300000bc3000002632000038320000f6320000c6340000003500009e370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,10 +498,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 28}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: b6280000cc290000f0290000f2290000f4290000d82a00003a2b00000e2e0000162e00001a2e0000fe2e00001c2f0000603000008a300000b2300000ba3000002432000036320000f43200003e3400007834000016370000
+    m_ExpandedIDs: b6280000f0290000102e0000182e00001c2e00008c300000b4300000bc30000038320000f6320000363400009e370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
