@@ -6,7 +6,7 @@ public class Character : MonoBehaviour
 {
 	public GameObject _character;
 	private float _maxAcceleration = 3f;
-	private float _maxDecceleration = 4f;
+	private float _maxDecceleration = 5f;
 	private float _maxSpeed = 10f;
 	private float _minSpeed = 0f;
 	private float _currentSpeed;
@@ -28,6 +28,21 @@ public class Character : MonoBehaviour
 			{
 				_currentSpeed += _maxAcceleration * Time.deltaTime;	
 			}
+			if (_currentSpeed < 0f)
+			{
+				_currentSpeed += _maxDecceleration * Time.deltaTime;
+			}
+		} 
+		else if (Input.GetKey(KeyCode.S))
+		{
+			if (!(_currentSpeed < _minSpeed))
+			{
+				_currentSpeed -= _maxDecceleration * Time.deltaTime;
+			}
+			else
+			{
+				_currentSpeed -= _maxAcceleration * Time.deltaTime;
+			}	
 		}
 		else
 		{
